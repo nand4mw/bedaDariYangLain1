@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="">
+    <section>
+      <div
+        class="h-[140vh] w-full flex items-center justify-center"
+        style="
+          background-image: url(./img/bg.png);
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="bg-blue-100 my-5 w-2/3">
+          <!-- NAVIGATION -->
+          <div class="h-40 p-5">
+            <h1 class="font-bold text-3xl text-blue-600 mb-3">REGISTER</h1>
+            <h3 class="text-blue-600">
+              Form berikut ini adalah form untuk mendapatkan akun login ke
+              sistem Pendaftaran Online Mahasiswa Baru Universitas Bahaudin
+              Mudhary Madura (UNIBA MADURA).
+            </h3>
+            <img
+              src="./img/logo.jpg"
+              width="110"
+              alt=""
+              class="absolute mt-3"
+            />
+          </div>
+          <!-- END NAVIGATION -->
+          <div
+            class="pt-24 pb-5 w-full h-full bg-white flex items-center justify-center"
+          >
+            <form
+              method="post"
+              action=""
+              class="flex items-center justify-center w-full flex-col"
+            >
+              <div class="flex gap-10 w-[80%] items-center justify-center">
+                <section>
+                  <div class="flex flex-col gap-3">
+                    <div class="flex-col flex">
+                      <label for="username">Nama Lengkap </label>
+                      <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        class="w-96 rounded border-black border p-2"
+                      />
+                    </div>
+                    <div class="flex-col flex">
+                      <label for="HP">HP</label>
+                      <input
+                        type="text"
+                        name="HP"
+                        id="HP"
+                        class="w-96 rounded border-black border p-2"
+                      />
+                    </div>
+                    <div class="flex-col flex">
+                      <label for="Foto_Resmi">Foto Resmi</label>
+                      <input
+                        type="file"
+                        name="Foto_Resmi"
+                        id="Foto_Resmi"
+                        class="w-96 rounded border-black border p-2 bg-white"
+                      />
+                    </div>
+                    <!-- option menu -->
+                    <div class="flex items-center justify-center gap-5">
+                      <div class="flex-col flex">
+                        <label for="username">Gelombang</label>
+                        <input
+                          type="text"
+                          name="username"
+                          id="username"
+                          class="p-2 w-28 rounded border-black border"
+                          placeholder="Gelombang 3"
+                        />
+                      </div>
+                      <div class="flex-col flex">
+                        <label for="username">Tanggal Buka</label>
+                        <input
+                          type="text"
+                          name="username"
+                          id="username"
+                          class="p-2 w-28 rounded border-black border"
+                          placeholder="2023-07-09"
+                        />
+                      </div>
+                      <div class="flex-col flex">
+                        <label for="username">Tanggal Tutup</label>
+                        <input
+                          type="text"
+                          name="username"
+                          id="username"
+                          class="p-2 w-28 rounded border-black border"
+                          placeholder="2023-09-30"
+                        />
+                      </div>
+                    </div>
+                    <!--end option menu -->
+
+                    <div class="flex-col flex">
+                      <label for="password">password</label>
+                      <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        class="p-2 w-96 rounded border-black border"
+                      />
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <div class="flex flex-col gap-5 -mt-2">
+                    <div class="flex-col flex mt-2">
+                      <label for="username">NIK KTP</label>
+                      <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        class="w-96 rounded border-black border p-2"
+                      />
+                    </div>
+                    <div class="flex-col flex -mt-2">
+                      <label for="username">Email</label>
+                      <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        class="p-2 w-96 rounded border-black border"
+                      />
+                    </div>
+                    <div class="flex-col flex mt-16">
+                      <label for="username">Jalur Masuk</label>
+                      <select
+                        name=""
+                        id=""
+                        class="w-96 rounded border-black border p-3"
+                      >
+                        <option value="">No Selected :</option>
+                        <option value="">Beasiswa</option>
+                        <option value="">Reguler</option>
+                      </select>
+                    </div>
+                    <div class="flex-col flex">
+                      <label for="username">Confirm Password</label>
+                      <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        class="w-96 rounded border-black border p-2"
+                      />
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div
+                class="mt-7 flex flex-col items-center justify-center w-[810px] gap-4"
+              >
+                <button
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  class="bg-blue-500 text-white rounded w-full py-2 font-bold"
+                >
+                  Register
+                </button>
+                <p>
+                  Sudah Punya Akun ? <a href="" class="text-blue-700">Login</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="bg-amber-100 p-5 px-16">
+            <h5 class="text-amber-900">Keterangan :</h5>
+            <ul class="text-amber-900">
+              <li class="list-disc">
+                Nama Harus Sesuai Dengan KTP / Akte Kelahiran / Nomer ujian
+                Nasional / Ijazah
+              </li>
+              <li class="list-disc">
+                No telp / HP Harus milik sendiri (bukan diwakili). contoh
+                pengisian : 0823333834987
+              </li>
+              <li class="list-disc">
+                Pastikan Email yang di inputkan masih aktif
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    https://docs.google.com/document/d/1_oa3tIWRRxht7sF-6j7IJW2t68qj9AH8/edit
+
+    <script>
+      alert(
+        "Nama : Ananda Maulana Wahyudi \nnim : 2202310054 \nJurusan : Informatika B 22"
+      );
+      alert(
+        "Tugas ini dibuat dengan Framework tailwindcss pure dari awal - akhir dan saya juga menyediakan screenshoot hasil outputnya di / img"
+      );
+
+      var fer = confirm(
+        "Klik cancel untuk halaman table \nKlik oke untuk halaman register "
+      );
+
+      if (fer == true) {
+        alert(" Terimakasih :)");
+      } else {
+        document.location.href = "table.html";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+
+////////////////////////////////////////////////////////////
+nama : Ananda Maulana Wahyudi 
+nim : 2202310054
+prodi : INFORMATIKA B 22
+///////////////////////////////////////////////////////////
+
+
+tugas ini saya buat dengan Framework tailwindcss pure dari awal - akhir 
+dan saya juga menyediakan screenshoot hasil outputnya di  /img
+boleh juga untuk melihat hasilnya secara langsung saya deploy ke akun github saya 
+copy >     
+
+
+
+
+
+
+untuk manual running 
+command :
+> npm init -y
+> npm start
+
+
+
